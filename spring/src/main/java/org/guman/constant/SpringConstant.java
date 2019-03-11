@@ -7,7 +7,7 @@ package org.guman.constant;
 public interface SpringConstant {
     
     interface XmlTags {
-        String pack="package";
+        String PACK="package";
     }
     
     interface BeanLabelConstants{
