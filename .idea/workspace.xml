@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71ce1583-b5fc-4ed2-9466-0de278318b0a" name="Default" comment="" />
+    <list default="true" id="71ce1583-b5fc-4ed2-9466-0de278318b0a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/org/guman/constant/SpringConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/BeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/BeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/annotate/AnnoteBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/annotate/AnnoteBeanDefinitionReader.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring/target/" />
@@ -33,30 +39,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnnoteBeanDefinitionReader.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AnnoteBeanDefinitionReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/annotate/AnnoteBeanDefinitionReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="415">
+              <caret line="90" column="34" lean-forward="true" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#347#348#0" expanded="true" />
                 <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NodeList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/org/w3c/dom/NodeList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/constant/SpringConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/utils/ClassUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="99">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -64,11 +83,20 @@
       <file leaf-file-name="AbstractBeanDefinitionReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/AbstractBeanDefinitionReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="266">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanDefinitionReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/BeanDefinitionReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -105,41 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/context/AbstractApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="73" lean-forward="true" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/context/ApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractBeanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/factory/AbstractBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -154,7 +147,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bea</find>
+      <find>item</find>
+      <find>public static final</find>
     </findStrings>
+    <replaceStrings>
+      <replace>i</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,7 +170,6 @@
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/BeanDefinition.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/PropertyValue.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/PropertyValues.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/BeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/context/ApplicationContext.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/aop/BeanFactoryAware.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/aop/BeanReference.java" />
@@ -181,10 +181,13 @@
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/io/UrlResource.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/io/ResourceLoader.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/io/UrlResourceLoader.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/annotate/AnnoteBeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/AbstractBeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/factory/AbstractBeanFactory.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/context/AnnotateApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/BeanDefinitionReader.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/constant/XmlTag.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/constant/SpringConstant.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/org/guman/beans/annotate/AnnoteBeanDefinitionReader.java" />
       </list>
     </option>
   </component>
@@ -201,6 +204,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -303,6 +307,16 @@
               <item name="guman" type="462c0819:PsiDirectoryNode" />
               <item name="beans" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guman-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guman-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guman" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guman-spring" type="b2602c69:ProjectViewProjectNode" />
@@ -457,16 +471,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552197993474</updated>
-      <workItem from="1552197997673" duration="11209000" />
+      <workItem from="1552197997673" duration="13845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11209000" />
+    <option name="totallyTimeSpent" value="13845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -477,13 +490,13 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296593" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297619" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32923076" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -569,13 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
           <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/BeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -714,16 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/AbstractBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/context/AnnotateApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -736,26 +732,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/annotate/AnnoteBeanDefinitionReader.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/utils/ClassUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="99">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/BeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/org/w3c/dom/NodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/constant/SpringConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/AbstractBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/utils/ClassUtil.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/org/guman/beans/annotate/AnnoteBeanDefinitionReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="415">
+          <caret line="90" column="34" lean-forward="true" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
