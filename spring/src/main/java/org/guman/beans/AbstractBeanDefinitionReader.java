@@ -17,7 +17,7 @@ public abstract class AbstractBeanDefinitionReader implements BeanDefinitionRead
      * 通过String->BeanDefinition存储IOC容器中的类定义
      * String:默认bean标签的id
      */
-    private Map<String, BeanDefinition> registry;
+    protected Map<String, BeanDefinition> registry;
 
     /**
      * 保存了资源加载器，将加载过后的BeanDefinition保存到registry中
