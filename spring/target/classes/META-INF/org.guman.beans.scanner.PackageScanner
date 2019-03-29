@@ -1,0 +1,1 @@
+default=org.guman.beans.scanner.ClassPathPackageScanner

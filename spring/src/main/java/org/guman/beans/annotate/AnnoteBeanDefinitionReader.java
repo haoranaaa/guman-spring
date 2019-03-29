@@ -5,6 +5,7 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import org.guman.beans.AbstractBeanDefinitionReader;
+import org.guman.beans.BeanDefinition;
 import org.guman.beans.io.ResourceLoader;
 import org.guman.beans.scanner.PackageScanner;
 
@@ -34,15 +35,23 @@ public class AnnoteBeanDefinitionReader extends AbstractBeanDefinitionReader {
     }
 
     private void doLoadBeanDefinition(String resource) {
-        ServiceLoader<PackageScanner> scanner=ServiceLoader.load(PackageScanner.class);
-        List<String> fullyQualifiedClassNameList;
-        for (PackageScanner packageScanner: scanner) {
-            try {
-                fullyQualifiedClassNameList = packageScanner.getFullyQualifiedClassNameList(resource);
+        try {
+            String basePackage = parserXml(resource);
+            ServiceLoader<PackageScanner> scanner = ServiceLoader.load(PackageScanner.class);
+            List<String> fullyQualifiedClassNameList = null;
+            for (PackageScanner packageScanner : scanner) {
+                fullyQualifiedClassNameList = packageScanner.getFullyQualifiedClassNameList(basePackage);
                 break;
-            } catch (IOException e) {
-                // ignore
             }
+            if (fullyQualifiedClassNameList == null) {
+                return;
+            }
+            fullyQualifiedClassNameList.forEach(i -> {
+                BeanDefinition bean = createBean(i);
+                registry.put(bean.getBeanClassName(), bean);
+            });
+        } catch (IOException e) {
+            // ignore
         }
 
     }

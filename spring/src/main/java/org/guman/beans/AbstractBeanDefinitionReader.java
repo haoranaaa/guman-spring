@@ -2,6 +2,8 @@ package org.guman.beans;
 
 import com.google.common.collect.Maps;
 import lombok.Getter;
+import org.apache.commons.lang3.StringUtils;
+import org.guman.beans.annotation.Component;
 import org.guman.beans.io.ResourceLoader;
 
 
@@ -26,6 +28,7 @@ public abstract class AbstractBeanDefinitionReader implements BeanDefinitionRead
 
     /**
      * 缩小类的实例域
+     *
      * @param resourceLoader
      */
     protected AbstractBeanDefinitionReader(ResourceLoader resourceLoader) {
@@ -33,4 +36,29 @@ public abstract class AbstractBeanDefinitionReader implements BeanDefinitionRead
         this.resourceLoader = resourceLoader;
     }
 
+    public BeanDefinition createBean(String clazzName) {
+        try {
+            Class<?> clazz = Class.forName(clazzName);
+            Component component = null;
+            if((component = clazz.getAnnotation(Component.class)) != null){
+                BeanDefinition bean = new BeanDefinition();
+                bean.setBeanClass(clazz);
+                Object obj = clazz.newInstance();
+                bean.setBean(obj);
+                String beanName = getBeanName(clazzName);
+                String beanClassName = StringUtils.isNotBlank(component.value()) ? component.value() : beanName;
+                bean.setBeanClassName(beanClassName);
+                return bean;
+            }
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
+            //ignore 跳过
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    private String getBeanName(String clazzName) {
+        String[] split = clazzName.split("\\.");
+        return split[split.length - 1];
+    }
 }
